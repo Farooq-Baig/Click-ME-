@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #452841;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Itim' cursive;
+}
+
+.btn{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    -webkit-border-radius: 1005;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background-color: #fe1ea8;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.btn p{
+    color: white;
+    font-size: 22px;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.btn:hover{
+    box-shadow: 0 1px 9px #fe1ea8;
+}
+
+.btn:active{
+    transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    -o-transform:scale(0.9);
+    box-shadow: -2px 1px 23px #fe1ea8;
+}
+
+particle{
+    position: absolute;
+    background: #fe1ea8;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    pointer-events: none;
+    transform-style: preserve-3d;
+    opacity: 0;
+    box-shadow: 5px 5px 44px rgb(100,155,200);
+    z-index: 5;
+}
